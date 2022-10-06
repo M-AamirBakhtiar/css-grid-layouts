@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+aside {
+  text-align: center;
+  background-color: #0048AA;
+  color: #fff;
+  padding: 1.25em 3.125em;
+}
+
+main {
+  padding: 1.25em 3.125em;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(min-content, max-content) 1fr;
+}
+
+p {
+  margin: 1em 0;
+}
