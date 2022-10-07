@@ -4,11 +4,27 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(to right, #57c1eb 0%, #246fa8 100%);
 }
 
 body {
-  padding: 1.25em 3.125em;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 75px 1fr 75px;
+  /* place-items: center stretch; */
+}
+
+main {
+  background-color: #fff;
+}
+
+header,
+footer {
+  display: grid;
+  align-items: center;
+  color: #fff;
+  background-color: #0048aa;
+  /* align-self: center; */
 }
